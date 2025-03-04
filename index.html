@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher's Website</title>
+    <title>Computer Teacher</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>Mr. John Doe</h1>
+        <h1>Welcome to My Teaching Space</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -20,41 +21,30 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I am Mr. John Doe, a passionate teacher with 10 years of experience in mathematics and science education.</p>
+        <p>I am a passionate computer teacher with experience in programming, web development, and more.</p>
     </section>
 
     <section id="courses">
-        <h2>Courses</h2>
-        <div class="course">
-            <h3>Mathematics</h3>
-            <p>Learn the fundamentals of mathematics, including algebra, geometry, and calculus.</p>
-        </div>
-        <div class="course">
-            <h3>Science</h3>
-            <p>Explore the fascinating world of physics, chemistry, and biology.</p>
-        </div>
+        <h2>Courses Offered</h2>
+        <ul>
+            <li>HTML & CSS Basics</li>
+            <li>JavaScript for Beginners</li>
+            <li>Python Programming</li>
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Submit</button>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Mr. John Doe. All rights reserved.</p>
+        <p>&copy; 2025 Computer Teacher | All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
